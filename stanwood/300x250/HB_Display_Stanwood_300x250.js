@@ -870,11 +870,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
-	this.instance_1.setTransform(116.75,193.55,1,1,0,0,0,100.4,41.2);
+	this.instance_1.setTransform(117.75,193.55,1,1,0,0,0,100.4,41.2);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(74).to({_off:false},0).to({alpha:1},5).wait(81).to({regX:100.5,scaleX:0.6875,scaleY:0.6875,x:85.45,y:166.7},10).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(74).to({_off:false},0).to({alpha:1},5).wait(81).to({regX:100.5,scaleX:0.6875,scaleY:0.6875,x:86.45,y:166.7},10).wait(55));
 
 	// quote-type
 	this.instance_2 = new lib.QUOTEtype();
@@ -970,7 +970,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HB_Display_Stanwood_300x250_atlas_1.jpg?1605289489156", id:"HB_Display_Stanwood_300x250_atlas_1"}
+		{src:"images/HB_Display_Stanwood_300x250_atlas_1.jpg?1605290488229", id:"HB_Display_Stanwood_300x250_atlas_1"}
 	],
 	preloads: []
 };
