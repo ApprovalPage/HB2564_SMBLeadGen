@@ -62,7 +62,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#5C9137").s().p("A7fEsIAApXMAz3AAAQDIAAAADIIAAGPg");
+	this.shape.graphics.f("#AA1D53").s().p("A7fEsIAApXMAz3AAAQDIAAAADIIAAGPg");
 	this.shape.setTransform(24,30);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -1023,7 +1023,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HB_Display_BDI_1600x125_atlas_1.jpg?1605744494240", id:"HB_Display_BDI_1600x125_atlas_1"}
+		{src:"images/HB_Display_BDI_1600x125_atlas_1.jpg?1605747639242", id:"HB_Display_BDI_1600x125_atlas_1"}
 	],
 	preloads: []
 };
