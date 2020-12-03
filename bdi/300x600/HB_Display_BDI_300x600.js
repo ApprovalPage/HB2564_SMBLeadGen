@@ -995,7 +995,7 @@ if (reversed == null) { reversed = false; }
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(14).to({regX:1.4,regY:1.1,scaleX:0.6307,scaleY:0.6307,x:122.75,y:177.55},23,cjs.Ease.quadOut).wait(108));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(14).to({regX:1.7,regY:1.2,scaleX:0.7492,scaleY:0.7492,x:155.6,y:213.6},23,cjs.Ease.quadOut).wait(108));
 
 	// LOGO
 	this.instance_6 = new lib.HB_logo_vert_2c();
@@ -1023,7 +1023,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/HB_Display_BDI_300x600_atlas_NP_1.jpg?1606959652903", id:"HB_Display_BDI_300x600_atlas_NP_1"}
+		{src:"images/HB_Display_BDI_300x600_atlas_NP_1.jpg?1607026554261", id:"HB_Display_BDI_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
