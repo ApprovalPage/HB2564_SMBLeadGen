@@ -2,9 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"HB_Display_Stanwood_alt_320x50_atlas_1", frames: [[0,0,727,245]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -23,13 +21,6 @@ lib.ssMetadata = [
 	}
 }).prototype = p = new cjs.MovieClip();
 // symbols:
-
-
-
-(lib._728x90_Stanwood_r2 = function() {
-	this.initialize(ss["HB_Display_Stanwood_alt_320x50_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
 // helper functions:
 
 function mc_symbol_clone() {
@@ -47,28 +38,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	prototype.frameBounds = frameBounds;
 	return prototype;
 	}
-
-
-(lib.PIC = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_2
-	this.instance = new lib._728x90_Stanwood_r2();
-	this.instance.setTransform(-157,-49,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.PIC, new cjs.Rectangle(-157,-49,363.5,122.5), null);
 
 
 (lib.Heritage_Vert_2c_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -412,59 +381,15 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_1 = new lib.HEAD1();
-	this.instance_1.setTransform(68.3,32,0.5802,0.5802,0,0,0,100.5,41.4);
-	this.instance_1._off = true;
+	this.instance_1.setTransform(-66.7,32,0.5802,0.5802,0,0,0,100.5,41.4);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(53).to({_off:false},0).wait(92));
-
-	// mask (mask)
-	var mask = new cjs.Shape();
-	mask._off = true;
-	var mask_graphics_0 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_29 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_30 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_31 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_32 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_33 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_34 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_35 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_36 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_37 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_38 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_39 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_40 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_41 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_42 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_43 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_44 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_45 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_46 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_47 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_48 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_49 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_50 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_51 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-	var mask_graphics_52 = new cjs.Graphics().p("Ay4EqIAApTMAlxAAAIAAJTg");
-
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:75.35,y:25.15}).wait(29).to({graphics:mask_graphics_29,x:75.35,y:25.15}).wait(1).to({graphics:mask_graphics_30,x:75.0097,y:25.15}).wait(1).to({graphics:mask_graphics_31,x:73.9889,y:25.15}).wait(1).to({graphics:mask_graphics_32,x:72.2876,y:25.15}).wait(1).to({graphics:mask_graphics_33,x:69.9058,y:25.15}).wait(1).to({graphics:mask_graphics_34,x:66.8434,y:25.15}).wait(1).to({graphics:mask_graphics_35,x:63.1005,y:25.15}).wait(1).to({graphics:mask_graphics_36,x:58.677,y:25.15}).wait(1).to({graphics:mask_graphics_37,x:53.5731,y:25.15}).wait(1).to({graphics:mask_graphics_38,x:47.7886,y:25.15}).wait(1).to({graphics:mask_graphics_39,x:41.3235,y:25.15}).wait(1).to({graphics:mask_graphics_40,x:34.178,y:25.15}).wait(1).to({graphics:mask_graphics_41,x:26.3519,y:25.15}).wait(1).to({graphics:mask_graphics_42,x:17.8453,y:25.15}).wait(1).to({graphics:mask_graphics_43,x:8.6581,y:25.15}).wait(1).to({graphics:mask_graphics_44,x:-1.2095,y:25.15}).wait(1).to({graphics:mask_graphics_45,x:-11.7578,y:25.15}).wait(1).to({graphics:mask_graphics_46,x:-22.9865,y:25.15}).wait(1).to({graphics:mask_graphics_47,x:-34.8957,y:25.15}).wait(1).to({graphics:mask_graphics_48,x:-47.4855,y:25.15}).wait(1).to({graphics:mask_graphics_49,x:-60.7559,y:25.15}).wait(1).to({graphics:mask_graphics_50,x:-74.7067,y:25.15}).wait(1).to({graphics:mask_graphics_51,x:-89.3381,y:25.15}).wait(1).to({graphics:mask_graphics_52,x:-104.65,y:25.15}).wait(1).to({graphics:null,x:0,y:0}).wait(92));
-
-	// PIC
-	this.instance_2 = new lib.PIC();
-	this.instance_2.setTransform(70.1,19.55,0.4473,0.4473,0,0,0,0.2,0.1);
-
-	var maskedShapeInstanceList = [this.instance_2];
-
-	for(var shapedInstanceItr = 0; shapedInstanceItr < maskedShapeInstanceList.length; shapedInstanceItr++) {
-		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
-	}
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(29).to({x:-92.9},23,cjs.Ease.quadIn).to({_off:true},1).wait(92));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:65.3},14,cjs.Ease.quadOut).wait(131));
 
 	// LOGO
-	this.instance_3 = new lib.HB_logo_vert_2c();
-	this.instance_3.setTransform(282.35,25.1,0.1619,0.1619,0,0,0,0.3,1);
+	this.instance_2 = new lib.HB_logo_vert_2c();
+	this.instance_2.setTransform(282.35,25.1,0.1619,0.1619,0,0,0,0.3,1);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(145));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(145));
 
 	// BKGD
 	this.shape_1 = new cjs.Shape();
@@ -476,7 +401,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-3.2,22.6,323.7,29.799999999999997);
+p.nominalBounds = new cjs.Rectangle(35,24.5,285.5,26);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -485,9 +410,7 @@ lib.properties = {
 	fps: 24,
 	color: "#333333",
 	opacity: 1.00,
-	manifest: [
-		{src:"images/HB_Display_Stanwood_alt_320x50_atlas_1.jpg?1606998940790", id:"HB_Display_Stanwood_alt_320x50_atlas_1"}
-	],
+	manifest: [],
 	preloads: []
 };
 
